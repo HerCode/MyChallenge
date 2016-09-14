@@ -41,7 +41,7 @@ html {
     background-color: #dcfff5;
 }
 h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', cursive;
     font-size: 2em;
     font-weight: 700;
     color: #9B30FF;
@@ -49,4 +49,30 @@ h1 {
     text-align: left;
     margin-left: 50px;
     margin-top: 50px;
+}
+h4 {
+    font-family: 'Roboto Slab', cursive;
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+div.math {
+  background-color: #90C3D4;
+  border-style: double;
+}
+div.cond {
+  background-color:#C390D4;
+  border-style: dotted;
+}
+div.loop {
+  background-color: #A1D490;
+  border-style: solid;
+}
+div.func {
+  background-color: #D4A190;
+  border-style: ridge;
 }
